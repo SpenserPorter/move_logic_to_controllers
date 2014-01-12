@@ -22,5 +22,11 @@ class ProductsController < ApplicationController
  		end
  	end
  end
- 
+
+ def new
+ 	@product = Product.new(:name)
+ end
+
+
 end
+
